@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    /* background: #f5f5f5; */
+}
+
+.navigation-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 15%;
+    min-width: 100px;
+    height: 100vh;
+    max-width: 100px;
+    color: #1D24CA;
+    /* padding: 2%; */
+    box-sizing: border-box;
+    border-right: 2px solid #ccc;
+    background-color: #f5f5f5;
+}
+
+.navigation-container a {
+    display: block;
+    text-decoration: none;
+    color: #1D24CA;
+    margin: 30px;
+}
+
+.navigation-container a:hover {
+    color: #201658;
+}
+
+
+.nav-link {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+.home-active {
+    content: url('../images/home-active.png');
+}
+
+.passive {
+    padding: 0.6rem 0.6rem;
+    border-radius: 5px;
+}
+
+.active {
+    padding: 0.6rem 0.6rem;
+    border-radius: 5px;
+    background-color: #1D24CA;
+}
+
+.home {
+    content: url('../images/home.svg');
+}
+
+.home-passive {
+    content: url('../images/home.png');
+}
+
+.control-active {
+    content: url('../images/users-alt-active.png');
+}
+
+.control-passive {
+    content: url('../images/users-alt.png');
+}
+
+.vote-active {
+    content: url('../images/vote-active.png');
+}
+
+.vote-passive {
+    content: url('../images/vote.png');
+}
+
+.settings-active {
+    content: url('../images/settings-active.png');
+}
+
+.settings-passive {
+    content: url('../images/settings.png');
+}
+
+.logout-active {
+    content: url('../images/logout-active.png');
+}
+
+.logout-passive {
+    content: url('../images/logout.png');
+}
+
+/* 
+#201658
+#1D24CA
+#98ABEE
+#F9E8C9 */
